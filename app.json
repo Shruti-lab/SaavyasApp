@@ -21,10 +21,30 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.deskforcea.SaavyasApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/PixelifySans-Bold.ttf",
+            "./assets/fonts/PixelifySans-Medium.ttf",
+            "./assets/fonts/PixelifySans-Regular.ttf",
+            "./assets/fonts/PixelifySans-SemiBold.ttf"
+          ]
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "e06c6b82-47a8-4c95-98c5-cae7e74a989e"
+      }
+    },
+    "scheme":"SaavyasApp"
   }
 }
